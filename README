@@ -2,6 +2,8 @@ django-mailman is a simple way to manage one or more mailman mailing lists which
 It uses the webinterface to subscribe or unsubscribe a mailinglist member.
 Additional you are able to request a list of all subscribed members for a specific mailing list.
 
+This fork looks up mailing list subscribers in the auth_users.
+
 ==Requirements==
 
 `django-mailman` is tested and works with mailman version 2.1.5.
